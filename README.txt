@@ -1,1 +1,1 @@
-Pi-Plates DAQCplate, DAQC2plate, MOTORplate, and RELAYplate module installation package
+Pi-Plates THERMOplate, DAQCplate, DAQC2plate, MOTORplate, and RELAYplate module installation package
