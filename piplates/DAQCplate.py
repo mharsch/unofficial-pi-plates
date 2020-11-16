@@ -24,7 +24,8 @@ localPath=site.getsitepackages()[0]
 helpPath=localPath+'/piplates/DAQChelp.txt'
 #helpPath='DAQChelp.txt'
 DAQCversion=1.4
-#Version 1.4 - added Python 3 compatibility
+#Version 1.40 - added Python 3 compatibility
+#Version 1.41 - fixed Python 3 error in getADCall function
 daqcsPresent = list(range(8))
 Vcc=list(range(8))
 MAXADDR=8
@@ -76,7 +77,7 @@ def getADC(addr,channel):
     return value
 
 def getADCall(addr):
-    value=range(8)
+    value=list(range(8))
     VerifyADDR(addr)    
     resp=ppCMD(addr,0x31,0,0,16)
     for i in range (0,8):
