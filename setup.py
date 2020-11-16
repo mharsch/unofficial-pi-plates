@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 setup(
     name='pi-plates',
-    version='3.3',
+    version='4.000',
     license='BSD',
     author='Jerry Wasinger, WallyWare, inc.',
     author_email='support@pi-plates.com',
