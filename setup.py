@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 setup(
     name='pi-plates',
-    version='5.22',
+    version='6.00',
     license='BSD',
     author='Jerry Wasinger, WallyWare, inc.',
     author_email='support@pi-plates.com',
-    keywords = "pi-plates,data acquisition,raspberry pi, relays, motors, temperature sensing",
+    keywords = "pi-plates,data acquisition,raspberry pi, relays, motors, temperature sensing, HATs",
     url='https://www.pi-plates.com',
     long_description="README.txt",
     packages=['piplates'],
